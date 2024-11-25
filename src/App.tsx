@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.css'
 import Nav from './Nav'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
