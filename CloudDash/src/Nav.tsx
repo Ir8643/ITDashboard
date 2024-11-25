@@ -17,8 +17,8 @@ function Nav() {
         <span className="navbar-toggler-icon"></span>
       </button>
       </div>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav ms-auto float-end bg-light rounded m-3 d-flex flex-row flex-wrap justify-content-center">
+      <div className="collapse navbar-collapse m-3" id="navbarNav">
+        <ul className="navbar-nav ms-auto float-center bg-light rounded d-flex flex-row flex-wrap justify-content-center">
           <li className="nav-item card p-1 m-2 text-nowrap"><NavLink className="nav-link" to='/'>Home</NavLink></li>
           <li className="nav-item card p-1 m-2 text-nowrap"><NavLink className="nav-link" to='/Subnets'>Subnets</NavLink></li>
           <li className="nav-item card p-1 m-2 text-nowrap"><NavLink className="nav-link" to='/Instances'>Instances</NavLink></li>
